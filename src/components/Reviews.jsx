@@ -5,7 +5,7 @@ import StarRatingComponent from 'react-star-rating-component';
 function List({data}) {
   return (
     <li className="list-group-item">
-      <div className="float-left">{data.review}</div>
+      <div className="float-left">{data.title}</div>
       <div className="float-right">
         <StarRatingComponent name="reviewRate" starCount={data.stars}/>
       </div>
